@@ -1,0 +1,154 @@
+view,page,text,swper{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.weui-search-bar {
+  background-color: #0eb6ff;
+  height: 100%;
+}
+
+.weui-search-bar__label,
+.weui-search-bar__form {
+  border-radius: 50rpx;
+  height: 100%;
+}
+
+.weui-flex {
+  height: 100rpx;
+}
+
+.placeholder {
+  background-color: #0eb6ff;
+  height: 100%;
+}
+
+.placeholder>image {
+  width: 65rpx;
+  margin: 15rpx;
+}
+swiper image {
+  width: 100%;
+}
+
+.lb {
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 100%;
+  background-color: #fff4d1;
+  display: flex;
+  padding: 10rpx;
+}
+
+.lb image {
+  height: 100%;
+}
+.lb text{
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.lb .t1 {
+  width: 82%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #b3b4b1;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+.sort{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sort .sort_con{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  margin-top: 50rpx;
+}
+.sort .sort_con image{
+  width: 80%;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  transform: rotate(-45deg);
+}
+.sort .sort_con text{
+  font-size: 25rpx;
+}
+.king{
+  margin-top: 40rpx;
+}
+.h1{
+  height: 50rpx;
+  line-height: 50rpx;
+  font-weight: bold;
+  padding:0 20rpx;
+}
+.h1 image{
+  height: 100%;
+  float: left;
+}
+.h1 .h_t1{
+  font-weight: bold;
+  float: left;
+  margin-left: 20rpx;
+}
+.h1 .h_t3{
+  height: 40rpx;
+  line-height: 40rpx;
+  width: 40rpx;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  top: 5rpx;
+  left: 0;
+  margin-left: 10rpx;
+}
+.h1 .h_t2{
+  float: right;
+  font-size: 30rpx;
+}
+.heng{
+  height: 350rpx;
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  margin-top: 20rpx;
+}
+.heng-1 {
+  display: inline-block;
+  width: 830rpx;
+}
+.heng view image{
+    width: 300rpx;
+    float: left;
+    margin-right: 50rpx;
+}
+
+.heng view>view>view{
+ line-height: 55rpx;
+  float: left
+}
+.heng view .vbox>view{
+  float: left;
+  width: 170rpx;
+  font-weight: bold;
+  font-size: 37rpx;
+}
+.letSecTitle,.rightSecTitle{
+  font-size: 28rpx;
+  color: gray;
+}
+.num{
+  color: #ff7200;
+  font-weight: bold;
+}
+.secname{
+  color: gray;
+  font-size: 28rpx;
+}

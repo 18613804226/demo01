@@ -1,0 +1,9 @@
+<view wx:for='{{list}}' wx:key='*this' class="box">
+	<navigator url="/pages/goodsdetail/goodsdetail">
+		<image src="{{item.image}}" mode="widthFix"></image>
+		<view class="right">
+			<view class="name">{{item.name}}</view>
+			<view class="price">￥{{item.price}}/{{item.unit}} <text>+</text></view>
+		</view>
+	</navigator>
+</view>

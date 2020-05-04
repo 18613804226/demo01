@@ -1,0 +1,24 @@
+/* pages/goodsdetail/goodsdetail.wxss */
+page{
+  background-color: honeydew;
+}
+.box{
+  margin-top: 50rpx;
+  padding: 0 20rpx ;
+
+}
+.box .name{
+  font-weight: bold;
+  font-size: 40rpx;
+}
+.box image{
+  box-shadow: 0 0 15rpx gray;
+  width: 100%;
+  border-radius: 20rpx;
+}
+.box .price{
+  color: #dc8956;
+}
+.box .text{
+  color: gray;
+}

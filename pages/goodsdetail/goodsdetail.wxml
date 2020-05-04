@@ -1,0 +1,7 @@
+<!--pages/goodsdetail/goodsdetail.wxml-->
+<view class="box">
+	<image src="{{detail.image}}" mode="widthFix"></image>
+	<view class="name">{{detail.name}}</view>
+	<view class="price">{{detail.price}}/{{detail.unit}}</view>
+	<view class="text">商品详情:{{detail.message}}在19世纪，曲奇西点非常流行，有一个叫Frode Albersen的男孩，在一家专供贵族的西点店里当学徒。1981年，他实现了儿时的愿望，自己开了一家小点心店。后来，Albersen 把他的曲奇改名为Danisa丹尼诗。经过近百年的演变和发展，Danisa产品开始畅销世界各地，并广受好好评。</view>
+</view>
